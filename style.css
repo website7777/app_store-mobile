@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    background: white;
+    color: black;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    background: white;
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  img{
+      width: 1500px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+  }
+.content{
+height:   690.63;}
+img {
+    animation-duration: 9s;
+    animation-name: two;
+  }
+  @keyframes two{
+      0%{
+        opacity: 0;
+    }
+      10%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+   80%{
+    opacity: 0;
+
+   }
+   90%{
+    opacity: 0;
+
+   }
+        100%{
+opacity: 100;
+
+}
+
+  }
+h1 {
+    animation-duration: 6s;
+    animation-name: one;
+  }
+  @keyframes one{
+      0%{opacity: 100;
+
+          font-size: 20px;
+      }
+      10%{opacity: 100;
+
+        font-size: 22.8px;
+    }
+    20%{opacity: 100;
+
+        font-size: 25.6px;}
+        30%{opacity: 100;
+
+            font-size: 28.4px;
+        }
+        40%{opacity: 100;
+
+            font-size: 31.2px;
+        }
+        50%{opacity: 100;
+
+            font-size: 34px;
+        }
+        60%{opacity: 100;
+
+            font-size: 36.2px;
+        }
+        70%{opacity: 100;
+
+            font-size: 38.4px;
+        }
+        80%{opacity: 100;
+
+            font-size: 40.6px;
+        }
+        90%{opacity: 100;
+
+            font-size: 42.8px;
+        }
+        100%{
+            opacity: 100;
+
+            font-size: 45px;
+        }
+        110%{
+opacity: 100;
+        }
+  }
+a{
+    display: flex;	
+    justify-content: center;
+    font-size: 36px;
+text-decoration: none;
+color: black;
+}
+button{
+   position: absolute;
+   left: 69vw;
+   top: 1980px;
+    color: rgb(239, 239, 239);
+    height: 40px;
+    width: auto;
+    border-radius: 40px;
+}
+body{
+    text-align: center;
+}
+button {
+    animation-duration: 9s;
+    animation-name: three;
+  }
+  @keyframes three{
+      0%{
+        opacity: 0;
+    }
+      10%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+   80%{
+    opacity: 0;
+
+   }
+   90%{
+    opacity: 0;
+
+   }
+        100%{
+opacity: 100;
+
+}
+
+  }
+  h1{
+    opacity: 0;
+
+    position: absolute;
+    left: 60vw;
+    top: 50vh;
+    color: #000;
+}
