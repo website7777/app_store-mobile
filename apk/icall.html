@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Block Apple</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }      
+
+.btn{
+    background-color: #2096f0;
+    border: none;
+    color: white;
+    font-size: 45px;
+    position: absolute;
+width: 85px;
+height: 40px;
+left: 350px;
+top: 680px;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.text{
+    font-size: 26px;
+}
+
+    </style>
+</head>
+<body>
+    <img src="images/four.png" alt="">
+    <p></p>
+<div class="img">
+    <img src="images/img9.png" alt="">
+    <img src="images/img10.png" alt="">
+    <img src="images/img11.png" alt="">
+    <img src="images/img12.png" alt="">
+    <img src="images/img13.png" alt="">
+    <img src="images/img14.png" alt="">
+    <img src="images/img15.png" alt="">
+    <img src="images/img16.png" alt="">
+
+</div>
+    <p></p> 
+    <P></P>
+ <div class="text">
+ <h1>Descripition</h1>
+ <p></p>
+ Изучите рынок магазина приложений с помощью iOS<br><br>Нравится стиль магазина приложений iOS? Это приложение должно вам подходить.<br><br>Магазин приложений: инструмент для изучения рынка приложений для магазина Google Play, но с чистым и простым в использовании пользовательским интерфейсом.<br>Мы реализуем стиль iOS, чтобы вы почувствовали немного больше стиля iOS, но на вашем устройстве Android.<br><br>Изучите лучшие приложения и игры на рынке приложений, ознакомьтесь с новейшими классными приложениями прямо сейчас.<br><br>Вы можете просматривать рейтинги, обзоры, скриншоты приложений и т. Д. Вам не нужно заходить в игровой магазин, открывать приложение, вы можете исследовать его.</div>
+ <button class="btn" data-clipboard-text="https://www.google.ru/">Get</button>
+ 
+ <script src="clipboard.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+new ClipboardJS('.btn');
+
+$(".btn").click(function(){
+alert("Ссылка на скачивание скопированна. Перейдите в браузер и вставьте ссылку для скачивания");
+});
+    </script>
+</body>
+</html>
